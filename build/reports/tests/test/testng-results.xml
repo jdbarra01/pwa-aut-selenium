@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-29T17:43:25 CLST" name="All Test Suite" finished-at="2022-12-29T17:43:51 CLST" duration-ms="25584">
+    <groups>
+    </groups>
+    <test started-at="2022-12-29T17:43:25 CLST" name="pwa-aut-selenium" finished-at="2022-12-29T17:43:51 CLST" duration-ms="25584">
+      <class name="testSuites.Test_Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testSuites.Test_Login@2f62ea70]" started-at="2022-12-29T17:43:25 CLST" name="setUp" finished-at="2022-12-29T17:43:32 CLST" duration-ms="7321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CPA0001_Login_Valido()[pri:1, instance:testSuites.Test_Login@2f62ea70]" started-at="2022-12-29T17:43:32 CLST" name="CPA0001_Login_Valido" finished-at="2022-12-29T17:43:49 CLST" duration-ms="16976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CPA0001_Login_Valido -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testSuites.Test_Login@2f62ea70]" started-at="2022-12-29T17:43:49 CLST" name="tearDown" finished-at="2022-12-29T17:43:51 CLST" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuites.Test_Login -->
+    </test> <!-- pwa-aut-selenium -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSuites.Test_Login" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-29T20:43:32" hostname="RI704799-3.local" time="16.976">
+  <properties/>
+  <testcase name="CPA0001_Login_Valido" classname="testSuites.Test_Login" time="16.976"/>
+  <system-out><![CDATA[[PdfImedReport] createPDF
+driver context
+
+Sistema operativo ->mac os x
+
+Se selecciona Chrome
+Page Login: Inicio metodo valida elementos
+Se encuentra el elemnto[[ChromeDriver: chrome on MAC (54fc76b5644ad8e486bc07dc4e425980)] -> xpath:  //h3[contains(text(),'Ingresa a tu cuenta')]]
+Se encuentra el elemnto[[ChromeDriver: chrome on MAC (54fc76b5644ad8e486bc07dc4e425980)] -> xpath: //button[contains(text(),'¿Olvidaste o se bloqueó tu clave?')]]
+Page Login: Inicia metodo Ingreso de Usuario
+Valida si Es visible el elemnto a validar.
+Es visible el elemnto a validar.
+Buscamos el objeto:[[ChromeDriver: chrome on MAC (54fc76b5644ad8e486bc07dc4e425980)] -> css selector: input[name=rut]], esperamos 5 segundos, hasta que aparezca.
+Se encontró objeto:[[ChromeDriver: chrome on MAC (54fc76b5644ad8e486bc07dc4e425980)] -> css selector: input[name=rut]], se retorna true.
+Page Login: Inicia metodo Valida error en el ingreso de Rut
+Buscamos el objeto:Proxy element for: DefaultElementLocator 'By.xpath: //p[contains(text(),'El RUT es inválido')]', esperamos 1 segundos, hasta que aparezca.
+No se encontró objeto:Proxy element for: DefaultElementLocator 'By.xpath: //p[contains(text(),'El RUT es inválido')]', se retorna false.
+Page Login: Inicia metodo Ingreso de Clave PWA
+Page Login: Inicia metodo Valida error en el ingreso de Rut
+Buscamos el objeto:Proxy element for: DefaultElementLocator 'By.xpath: //p[contains(text(),'El RUT es inválido')]', esperamos 1 segundos, hasta que aparezca.
+No se encontró objeto:Proxy element for: DefaultElementLocator 'By.xpath: //p[contains(text(),'El RUT es inválido')]', se retorna false.
+Buscamos el objeto:[[ChromeDriver: chrome on MAC (54fc76b5644ad8e486bc07dc4e425980)] -> css selector: input[name=password]], esperamos 5 segundos, hasta que aparezca.
+Se encontró objeto:[[ChromeDriver: chrome on MAC (54fc76b5644ad8e486bc07dc4e425980)] -> css selector: input[name=password]], se retorna true.
+Page Login: Inicia metodo click en boton Ingresar
+Buscamos el objeto:[[ChromeDriver: chrome on MAC (54fc76b5644ad8e486bc07dc4e425980)] -> css selector: button[class="brand-button primary"]], esperamos 1 segundos, hasta que aparezca.
+Se encontró objeto:[[ChromeDriver: chrome on MAC (54fc76b5644ad8e486bc07dc4e425980)] -> css selector: button[class="brand-button primary"]], se retorna true.
+Page Login: Inicia metodo Valida error en ingreso de PWA
+Buscamos el objeto:Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'Lo sentimos')]', esperamos 1 segundos, hasta que aparezca.
+No se encontró objeto:Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'Lo sentimos')]', se retorna false.
+[PdfImedReport] closePDF
+[PdfImedReport] createTitlePage
+Temporal File: WG42EZ3W1SAOT19 Deleted-
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 54954
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+dic. 29, 2022 5:43:29 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+dic. 29, 2022 5:43:29 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: a no-op implementation
+dic. 29, 2022 5:43:29 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 108.
+dic. 29, 2022 5:43:29 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
